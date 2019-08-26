@@ -1,0 +1,21 @@
+ACTIVATE_PROFILES=prod
+
+APP_PORT=8890
+
+PID_FILE=run.pid
+
+#CONF_FOLDER=
+
+APP_NAME=`echo $(basename *.jar .jar)`
+
+RUN_ARGS=""
+
+JAVA_HOME=/usr
+
+#JAVA_OPTS=
+
+JARFILE=${APP_NAME}.jar
+
+#DEBUG=
+
+RUNNER_TIMEOUT=30
